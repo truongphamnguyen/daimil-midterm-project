@@ -1,5 +1,7 @@
 # OkCupid Profiles EDA - Dating Web Site Data Exploratory
 
+<img src="img/logo.jpg" alt="logo" width="200"/>)
+
 # Table of Contents
 1. [Overview](#overview)
 2. [The Data Set](#the-data-set)
@@ -18,7 +20,10 @@ This dataset was created with the use of a python script that pulled the data fr
 ## **Cleaning the data**
 1. Process null value
 2. Check for dupliated row
-3. Combined possible data without compromised the data integrity
+3. Combined possible similar data without compromised the data integrity, to reduce the categorical
+    - crunching/generalize the `education` column
+
+
 ## **End Goal Questions**
 1. 
 2.
@@ -31,3 +36,5 @@ This dataset was created with the use of a python script that pulled the data fr
 https://github.com/rudeboybert/JSE_OkCupid
 
 https://www.kaggle.com/datasets/andrewmvd/okcupid-profiles
+
+https://sparkbyexamples.com/pandas/pandas-remap-values-in-column-with-a-dictionary-dict/
