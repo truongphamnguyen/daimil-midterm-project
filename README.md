@@ -1,8 +1,9 @@
-# OkCupid Profiles EDA - Dating Web Site Data Exploratory
+# Exploring OkCupid Profiles
+Dating Web Site EDA
 
-<img src="img/logo.jpg" alt="logo" width="200"/>)
+<img src="./img/logo.png" alt="logo" width="400"/>
 
-# Table of Contents
+### Table of Contents
 1. [Overview](#overview)
 2. [The Data Set](#the-data-set)
 3. [Cleaning the data](#cleaning-the-data)
