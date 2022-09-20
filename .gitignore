@@ -1,5 +1,6 @@
 #Ignore data folder where large csv add, download csv at link provided in README.md
-data/*
+data/essays_revised_and_shuffled.csv
+data/okcupid_profiles.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
