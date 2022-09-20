@@ -1,3 +1,6 @@
+#Ignore data folder where large csv add, download csv at link provided in README.md
+data/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
