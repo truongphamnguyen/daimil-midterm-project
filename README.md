@@ -24,8 +24,6 @@ This dataset was created with the use of a python script that pulled the data fr
 The dataset categorize user profiles with 31 different columns: 
 - 21 of which columns are user's natural consistent attribute (things that biographically distingushed between person) such as a person's `age`, `sex`, `height`, `education`, `ethnicity`, `speaks`, ... etc.
 
-
-
 - 10 of which columns in the name of `essay0`, `essay1`, `essay2`, ... `essay9` etc. are pre-made questions that a user could answer in which to make their profiles stand out and/or find their potential match. OkCupid engine also use this data to find and/or recommend matchs, such finding might be outside the scope of this analysis. However, I hope to  The categories meaning is listed as follow:
 
 | Column_name | Meaning                                        |
@@ -46,15 +44,13 @@ The dataset categorize user profiles with 31 different columns:
 
 ## **Cleaning the data**
 1. Process null value
-    - Found a chunk amounth of `nan` values across the datafram using `.isnull().sum()`, using `.fillna('')` to replace them with an empty string `''`. This one is particularly helpful to me later down the exploring path as I found out some of the `nan` value is considers `float`, and it gave error when I am trying to dealing with a `string` column.
+    - I found a chunk amount of `nan` values across the datafram using `.isnull().sum()`, using `.fillna('')` to replace them with an empty string `''`. This one is particularly helpful to me later down the data exploring path as I found out some of the `nan` value is considers `float`, and it gave error when I am trying to dealing with a `string` column.
 2. Check for dupliated row
     - found none.
-3. Combined possible similar data without compromised the data integrity, to reduce number of labeling
+3. Combined possible similar data without compromised the data integrity, to reduce number of labels
     - crunching/generalize the `education` column
     - ~~crunching/generalize the `ethnicity` column~~ 
         - (it is challenging to generalize people with mixed races, so I've withdrawed from this task)
-
-
 
 ## **End Goal Questions**
 1. 
