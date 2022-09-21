@@ -70,3 +70,7 @@ https://github.com/rudeboybert/JSE_OkCupid
 https://www.kaggle.com/datasets/andrewmvd/okcupid-profiles
 
 https://sparkbyexamples.com/pandas/pandas-remap-values-in-column-with-a-dictionary-dict/
+
+https://www.geeksforgeeks.org/python-program-to-convert-a-tuple-to-a-string/
+
+https://theprogrammingexpert.com/remove-parentheses-from-string-python/
