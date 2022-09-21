@@ -46,9 +46,9 @@ The dataset categorize user profiles with 31 different columns:
 
 ## **Cleaning the data**
 1. Process null value
-    - 
+    - Found a chunk amounth of `nan` values across the datafram using `.isnull().sum()`, using `.fillna('')` to replace them with an empty string `''`. This one is particularly helpful to me later down the exploring path as I found out some of the `nan` value is considers `float`, and it gave error when I am trying to dealing with a `string` column.
 2. Check for dupliated row
-    - found none 
+    - found none.
 3. Combined possible similar data without compromised the data integrity, to reduce number of labeling
     - crunching/generalize the `education` column
     - ~~crunching/generalize the `ethnicity` column~~ 
