@@ -7,7 +7,6 @@ def remove_punctuation(text):
 
 def remove_stopwords(text):
     text = text.lower()                                             #lower case all text
-    # text = remove_punctuation(text)
     text = text.replace('\n', ' ')                                  #replace new line with a space ' '
     word_lst = text.split()                                         #split words into list
     word_lst = [word for word in word_lst if word not in stopwords] #remove stopwords using stopwords list

@@ -24,6 +24,12 @@ This dataset was created with the use of a python script that pulled the data fr
 The dataset categorize user profiles with 31 different columns: 
 - 21 of which columns are user's natural consistent attribute (things that biographically distingushed between person) such as a person's `age`, `sex`, `height`, `education`, `ethnicity`, `speaks`, ... etc. The full table is at below:
 
+
+- 10 of which columns in the name of `essay0`, `essay1`, `essay2`, ... `essay9` etc. are pre-made questions that a user could answer in which to make their profiles stand out and/or find their potential match. OkCupid engine also use this data to find and/or recommend matchs, such finding might be outside the scope of this analysis. The meaning of each "essay" columns is listed as below:
+
+<table>
+<tr><td>
+
 | Column Name | Data Type |
 |-------------|-----------|
 | age         | int64     |
@@ -48,9 +54,9 @@ The dataset categorize user profiles with 31 different columns:
 | smokes      | object    |
 | speaks      | object    |
 
-- 10 of which columns in the name of `essay0`, `essay1`, `essay2`, ... `essay9` etc. are pre-made questions that a user could answer in which to make their profiles stand out and/or find their potential match. OkCupid engine also use this data to find and/or recommend matchs, such finding might be outside the scope of this analysis. However, I hope to  The categories meaning is listed as follow:
+</td><td>
 
-| Column_name | Meaning                                        |
+| Column name | Meaning                                        |
 |-------------|------------------------------------------------|
 | essay0      | My self summary                                |
 | essay1      | What I’m doing with my life                    |
@@ -63,22 +69,30 @@ The dataset categorize user profiles with 31 different columns:
 | essay8      | The most private thing I am willing to admit   |
 | essay9      | You should message me if...                    |
 
+</td></tr> </table>
+
+
 ***NOTE: Due to Github upload file size restriction, the dataset is not included in this repository but it can be downloaded at [`okcupid_profiles.csv`](https://www.kaggle.com/code/captainqq/dating-profiles-analysis-and-visualization/data). After downloading, be sure to save it in the `data` folder.
 
 ## **Cleaning the data**
-1. Process null value
-    - I found a chunk amount of `nan` values across the datafram using `.isnull().sum()`, using `.fillna('')` to replace them with an empty string `''`. This one is particularly helpful to me later down the data exploring path as I found out some of the `nan` value is considers `float`, and it gave error when I am trying to dealing with a `string` column.
+1. Process null values
+    - I found a chunk amount of `nan` values across the datafram using `.isnull().sum()`, ~~using `.fillna('')` to replace them with an empty string `''`. This one is particularly helpful to me later down the data exploring path as I found out some of the `nan` value is considers `float`, and it gave error when I am trying to dealing with a `string` column.~~
+        - the `nan` values threw me a few datatype error when iterate through string values. I have used `str()` method to escape `float` data type error.
+        - the `nan` values also return a `nan` value when I try to combine `str` values with `nan` values. I have used `.astype()` to avoid spoiling the data.
+2. Processing -1 values
+    - Changed them to nan values.
 2. Check for dupliated row
-    - found none.
+    - Found none.
 3. Combined possible similar data without compromised the data integrity, to reduce number of labels
-    - crunching/generalize the `education` column
-    - ~~crunching/generalize the `ethnicity` column~~ 
-        - (it is challenging to generalize people with mixed races, so I've withdrawed from this task)
+    - Generalize the `education` column. Using the table showed as below
+    - Make no change to `ethnicity` column 
+    - Combine all "essays" columns into `all_essays` column
+    - Removing `locations` and `last_online` column
 
 ## **End Goal Questions**
 1. What is the demographic of people using dating web site?
-2. 
-3. What are top 10 things that most people describe about themself?
+2. What are top 10 things that most people talking about?
+3. What
 ## **Data Analysis and Visualization**
 ## **Further Data Analysis**
 ## **What else?**
