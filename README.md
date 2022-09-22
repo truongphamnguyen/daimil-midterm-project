@@ -10,9 +10,8 @@ Dating Web Site EDA
 4. [End Goal Questions](#end-goal-questions)
 5. [Data Analysis and Visualization](#data-analysis-and-visualization)
 6. [Further Data Analysis](#further-data-analysis)
-7. [What else?](#what-else)
-8. [Conclusion](#conclusion)
-9. [Credits and References](#credits-and-references)
+7. [Conclusion](#conclusion)
+8. [Credits and References](#credits-and-references)
 
 ## **Overview**
 OkCupid is a U.S.-based, international operating online dating, friendship, and formerly also a social networking website and application. It was launched in January 19th, 2004 by a group a developers from Harvard University. It is currently owned by Match Group which also owns Tinder, Hinge, Plenty of Fish and many other popular dating apps and sites. 
@@ -88,14 +87,37 @@ The dataset categorize user profiles with 31 different columns:
     - Make no change to `ethnicity` column 
     - Combine all "essays" columns into `all_essays` column
     - Removing `locations` and `last_online` column
+    - Creating columns `words` counting how many words a person typing
 
 ## **End Goal Questions**
 1. What is the demographic of people using dating web site?
 2. What are top 10 things that most people talking about?
-3. What
+3. Who considered themself not Asian, but speak Vietnamese?
 ## **Data Analysis and Visualization**
+
+Null values graph
+
+![image info](./img/null_values.png)
+
+Gender Graph (%)
+
+Age Graph (%)
+
+Status Graph (%)
+
+Orientation Pie (%)
+
+Gender/Education Graph 
+
+Gender/Words
+
+Education/Words
+
+Job/Words
+
+Other ethnicity/Speak Vietnamese
+
 ## **Further Data Analysis**
-## **What else?**
 ## **Conclusion**
 ## **Credits and References**
 https://github.com/rudeboybert/JSE_OkCupid
