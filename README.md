@@ -81,6 +81,8 @@ The dataset categorize user profiles with 31 different columns:
 
 ![image info](./img/null_values.png)
 
+![image info](./img/negative_income.png)
+
 2. Processing -1 values
     - Changed them to nan values.
 2. Check for dupliated row
@@ -98,27 +100,34 @@ The dataset categorize user profiles with 31 different columns:
 3. What are top words and their occurences (excluding english stop words)?
 ## **Data Analysis and Visualization**
 
+![image info](./img/gender.png)
 
+![image info](./img/gender-ages.png)
 
-Gender Graph (%)
+![image info](./img/gender-height.png)
 
-Gender/Age Graph (%)
+![image info](./img/gender-income.png)
 
 Status Graph (%)
 
 Orientation Pie (%)
 
-Gender/Education Graph 
+![image info](./img/jobs.png)
 
-Gender/Words
+![image info](./img/income-education.png)
 
-Education/Words
+![image info](./img/gender-words.png)
 
-Job/Words
+![image info](./img/education-words.png)
+
+![image info](./img/Jobs-words.png)
+
+![image info](./img/words.png)
+
+## **Further Data Analysis**
 
 Other ethnicity/Speak Vietnamese
 
-## **Further Data Analysis**
 ## **Conclusion**
 ## **Credits and References**
 https://github.com/rudeboybert/JSE_OkCupid
