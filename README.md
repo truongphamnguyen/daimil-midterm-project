@@ -78,6 +78,9 @@ The dataset categorize user profiles with 31 different columns:
     - I found a chunk amount of `nan` values across the datafram using `.isnull().sum()`, ~~using `.fillna('')` to replace them with an empty string `''`. This one is particularly helpful to me later down the data exploring path as I found out some of the `nan` value is considers `float`, and it gave error when I am trying to dealing with a `string` column.~~
         - the `nan` values threw me a few datatype error when iterate through string values. I have used `str()` method to escape `float` data type error.
         - the `nan` values also return a `nan` value when I try to combine `str` values with `nan` values. I have used `.astype()` to avoid spoiling the data.
+
+![image info](./img/null_values.png)
+
 2. Processing -1 values
     - Changed them to nan values.
 2. Check for dupliated row
@@ -91,17 +94,15 @@ The dataset categorize user profiles with 31 different columns:
 
 ## **End Goal Questions**
 1. What is the demographic of people using dating web site?
-2. What are top 10 things that most people talking about?
-3. Who considered themself not Asian, but speak Vietnamese?
+2. Where is the vietnamese group of people?
+3. What are top words and their occurences (excluding english stop words)?
 ## **Data Analysis and Visualization**
 
-Null values graph
 
-![image info](./img/null_values.png)
 
 Gender Graph (%)
 
-Age Graph (%)
+Gender/Age Graph (%)
 
 Status Graph (%)
 
