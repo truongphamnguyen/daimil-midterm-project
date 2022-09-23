@@ -79,7 +79,7 @@ The dataset categorize user profiles with 31 different columns:
         - the `nan` values threw me a few datatype error when iterate through string values. I have used `str()` method to escape `float` data type error.
         - the `nan` values also return a `nan` value when I try to combine `str` values with `nan` values. I have used `.astype()` to avoid spoiling the data.
 
-![image info](./img/null_values.png)
+![image info](./img/null_valuess.png)
 
 ![image info](./img/negative_income.png)
 
