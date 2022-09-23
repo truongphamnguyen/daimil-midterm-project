@@ -127,6 +127,8 @@ The dataset categorize user profiles with 31 different columns:
 
 Other ethnicity/Speak Vietnamese
 
+The possibility of predicting a categorical values, such as gender (female/male) based on the words was using, with a accuracy. 
+
 ## **Conclusion**
 
     - White consist of most population(>50%), Asian is second on the list (>10%)
