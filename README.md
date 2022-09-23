@@ -95,8 +95,8 @@ The dataset categorize user profiles with 31 different columns:
 
 ## **End Goal Questions**
 1. What is the demographic of people using dating web site?
-3. What are top words and their occurences (excluding english stop words)?
-4. Explore vietnamese speaking population
+2. What are top words and their occurences (excluding english stop words)?
+~~3. Explore vietnamese speaking population~~
 ## **Data Analysis and Visualization**
 
 ![image info](./img/gender.png)
