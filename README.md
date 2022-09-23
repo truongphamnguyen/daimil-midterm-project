@@ -23,7 +23,6 @@ This dataset was created with the use of a python script that pulled the data fr
 The dataset categorize user profiles with 31 different columns: 
 - 21 of which columns are user's natural consistent attribute (things that biographically distingushed between person) such as a person's `age`, `sex`, `height`, `education`, `ethnicity`, `speaks`, ... etc. The full table is at below:
 
-
 - 10 of which columns in the name of `essay0`, `essay1`, `essay2`, ... `essay9` etc. are pre-made questions that a user could answer in which to make their profiles stand out and unique with purpose of attracting soul-mates. OkCupid engine also use this data to find and/or recommend matchs, such finding might be outside the scope of this analysis. The meaning of each "essay" columns is listed as below:
 
 <table>
@@ -102,15 +101,15 @@ The dataset categorize user profiles with 31 different columns:
 
 ![image info](./img/gender.png)
 
+![image info](./img/status.png)
+
+![image info](./img/gender-Orientation.png)
+
 ![image info](./img/gender-ages.png)
 
 ![image info](./img/gender-height.png)
 
 ![image info](./img/gender-income.png)
-
-Status Graph (%)
-
-Orientation Pie (%)
 
 ![image info](./img/jobs.png)
 
@@ -129,6 +128,17 @@ Orientation Pie (%)
 Other ethnicity/Speak Vietnamese
 
 ## **Conclusion**
+
+    - White consist of most population(>50%), Asian is second on the list (>10%)
+    - There is a great difference between male and female population (3:2 ratio)
+    - The ratio of female/male at the same age is increasing by ages (over 55)
+    - “Love” is 2nd on the list
+    - “Family” is 24th and “Home” is 46th on list
+    - “Food” is 13th and “Movie” is 15th on the list
+    - “Book” is 29th on the list
+    - Male writes slightly more compare to female
+    - Higher education doesn’t seem to reflect much greater ratios with incomes in this data
+
 ## **Credits and References**
 https://github.com/rudeboybert/JSE_OkCupid
 
