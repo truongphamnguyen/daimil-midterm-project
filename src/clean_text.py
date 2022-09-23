@@ -2,9 +2,9 @@ from string import punctuation
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 stopwords = ENGLISH_STOP_WORDS
 
-def remove_punctuation(text):
+def remove_punctuation(text=''):
     return ''.join([ch for ch in text if ch not in punctuation]) 
-def remove_stopwords(text):
+def remove_stopwords(text=''):
     text = text.lower()                                             #lower case all text
     text = text.replace('\n', ' ')                                  #replace new line with a space ' '
     word_lst = text.split()                                         #split words into list

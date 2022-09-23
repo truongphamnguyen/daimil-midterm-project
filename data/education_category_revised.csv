@@ -4,17 +4,17 @@ graduated from masters program,Master's Degree
 working on college/university,Some College
 working on masters program,Bachelor's Degree
 graduated from two-year college,Associate's Degree
-graduated from high school,High school
+graduated from high school,up to High school
 graduated from ph.d program,Doctorate Degree
 graduated from law school,Law degree
 working on two-year college,Some College
 dropped out of college/university,Some College
 working on ph.d program,Master's Degree
 college/university,Associate's Degree
-graduated from space camp,Space Camp
-dropped out of space camp,Some Education
+graduated from space camp,up to High school
+dropped out of space camp,up to High school
 graduated from med school,Medical Degree
-working on space camp,Some Education
+working on space camp,up to High school
 working on law school,Bachelor's Degree
 two-year college,Associate's Degree
 working on med school,Bachelor's Degree
@@ -22,10 +22,10 @@ dropped out of two-year college,Some College
 dropped out of masters program,Bachelor's Degree
 masters program,Master's Degree
 dropped out of ph.d program,Master's Degree
-dropped out of high school,Some High school
-high school,High school
-working on high school,Some High school
-space camp,Space Camp
+dropped out of high school,up to High school
+high school,up to High school
+working on high school,up to High school
+space camp,up to High school
 ph.d program,Doctorate Degree
 law school,Law degree
 dropped out of law school,Bachelor's Degree

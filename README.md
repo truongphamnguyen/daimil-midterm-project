@@ -16,15 +16,15 @@ Dating Web Site EDA
 ## **Overview**
 OkCupid is a U.S.-based, international operating online dating, friendship, and formerly also a social networking website and application. It was launched in January 19th, 2004 by a group a developers from Harvard University. It is currently owned by Match Group which also owns Tinder, Hinge, Plenty of Fish and many other popular dating apps and sites. 
 
-OkCupid is a dating platform that is similiar to other dating app such as Tinder, but rather provided a game feel, it also feels like a social networking sites. OkCupid is considered to be a dating platform designed to be less centered on physical appearance. Despite that facts, the dating world however proving a completely rather otherwise picture. We are in this data exploring quest, mainly focus on the data and graph (that is the most picture thing I could provided). 
+OkCupid is a dating platform that is similiar to other dating app such as Tinder, but rather provided a game feel dating app, it also feels like a social networking sites. OkCupid is considered to be a dating platform designed to be less centered on physical appearance. Despite that facts, the dating world however proving a rather otherwise picture. We are in this data exploring quest, mainly focus on its data and graph.
 ## **The Data Set**
-This dataset was created with the use of a python script that pulled the data from public profiles on www.okcupid.com. It compromises of 59946 user profiles, which includes people within a 25 mile radius of San Francisco. 
+This dataset was created with the use of a python script that pulled the data from public profiles on www.okcupid.com. It compromises of 59946 user profiles, which only includes people within a 25 mile radius of San Francisco. 
 
 The dataset categorize user profiles with 31 different columns: 
 - 21 of which columns are user's natural consistent attribute (things that biographically distingushed between person) such as a person's `age`, `sex`, `height`, `education`, `ethnicity`, `speaks`, ... etc. The full table is at below:
 
 
-- 10 of which columns in the name of `essay0`, `essay1`, `essay2`, ... `essay9` etc. are pre-made questions that a user could answer in which to make their profiles stand out and/or find their potential match. OkCupid engine also use this data to find and/or recommend matchs, such finding might be outside the scope of this analysis. The meaning of each "essay" columns is listed as below:
+- 10 of which columns in the name of `essay0`, `essay1`, `essay2`, ... `essay9` etc. are pre-made questions that a user could answer in which to make their profiles stand out and unique with purpose of attracting soul-mates. OkCupid engine also use this data to find and/or recommend matchs, such finding might be outside the scope of this analysis. The meaning of each "essay" columns is listed as below:
 
 <table>
 <tr><td>
